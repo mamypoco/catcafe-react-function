@@ -1,4 +1,5 @@
-import { Label, Container, Col, Row, Form, Button } from "reactstrap";
+import { Container, Col, Row } from "reactstrap";
+import ContactForm from "../components/ContactForm";
 
 const Contact = () => {
    return (
@@ -23,12 +24,15 @@ const Contact = () => {
             </Col>
          </Row>
          <Row className="row-content">
-            <Col className="mx-auto" md="8">
+            <Col className="mx-auto" md="12">
                <h5>
                   For any questions or feedback, please contact through the form
                   and we’ll reply as soon as we can.
                </h5>
             </Col>
+         </Row>
+         <Row className="row-content">
+            <ContactForm />
          </Row>
       </Container>
    );
