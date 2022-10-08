@@ -1,19 +1,20 @@
 import HomeImg from "../assets/images/cat_and_coffee.jpg";
+import { Container, Row, Col } from "reactstrap";
 
 const Home = () => {
    return (
-      <div className="container">
-         <div className="row row-content">
-            <div className="col text-center">
+      <Container>
+         <Row className="row-content">
+            <Col className="text-center">
                <h1 className="header">Seattle Eastsides' first cat cafe</h1>
                <img
                   src={HomeImg}
                   alt="A cat with coffee laying on the yellow blanket"
                />
-            </div>
-         </div>
-         <div className="row row-content">
-            <div className="col">
+            </Col>
+         </Row>
+         <Row className="row-content">
+            <Col className="col">
                <h2>
                   We provide you with a chance to relax and joy of purr therapy.
                </h2>
@@ -35,19 +36,19 @@ const Home = () => {
                   laounge. If you want to reserve the spot in advance, please
                   book a visit via the button to make sure you are in.{" "}
                </p>
-            </div>
-         </div>
+            </Col>
+         </Row>
 
-         <div className="row row-content text-center">
-            <div className="col">
+         <Row className="row-content text-center">
+            <Col>
                <h3> Cafe Hours:</h3>
                <p>
                   Monday-Friday: 9am -6pm (The last entry 5pm) <br />
                   Saturday and Sunday: 10am - 4pm (The last entry 3pm)
                </p>
-            </div>
-         </div>
-      </div>
+            </Col>
+         </Row>
+      </Container>
    );
 };
 
