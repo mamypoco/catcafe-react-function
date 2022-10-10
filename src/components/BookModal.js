@@ -10,7 +10,8 @@ import {
    Col,
 } from "reactstrap";
 import { useState } from "react";
-import { Field, Formik, Form } from "formik";
+import { Field, Formik, Form, ErrorMessage } from "formik";
+import { validateBook } from "../utils/validateBook";
 
 const BookModal = () => {
    const [modalOpen, setModalOpen] = useState(false);
@@ -56,6 +57,7 @@ const BookModal = () => {
                      eTime: "",
                   }}
                   onSubmit={handleSubmit}
+                  validate={validateBook}
                >
                   <Form>
                      <FormGroup row>
@@ -68,6 +70,9 @@ const BookModal = () => {
                               placeholder="First"
                               className="form-control"
                            />
+                           <ErrorMessage name="firstName">
+                              {(msg) => <p className="text-danger">{msg}</p>}
+                           </ErrorMessage>
                         </Col>
                         <Col md="5">
                            <Field
@@ -75,6 +80,9 @@ const BookModal = () => {
                               placeholder="Last"
                               className="form-control"
                            />
+                           <ErrorMessage name="lastName">
+                              {(msg) => <p className="text-danger">{msg}</p>}
+                           </ErrorMessage>
                         </Col>
                      </FormGroup>
                      <FormGroup row>
@@ -87,6 +95,9 @@ const BookModal = () => {
                               placeholder="Email"
                               className="form-control"
                            />
+                           <ErrorMessage name="email">
+                              {(msg) => <p className="text-danger">{msg}</p>}
+                           </ErrorMessage>
                         </Col>
                      </FormGroup>
                      <FormGroup row>
@@ -120,6 +131,9 @@ const BookModal = () => {
                               type="date"
                               className="form-control"
                            />
+                           <ErrorMessage name="date">
+                              {(msg) => <p className="text-danger">{msg}</p>}
+                           </ErrorMessage>
                         </Col>
                      </FormGroup>
                      <FormGroup row>
@@ -133,6 +147,9 @@ const BookModal = () => {
                               placeholder="from"
                               className="form-control"
                            />
+                           <ErrorMessage name="from">
+                              {(msg) => <p className="text-danger">{msg}</p>}
+                           </ErrorMessage>
                         </Col>
                         <Label htmlFor="from" md="2">
                            From
@@ -145,6 +162,9 @@ const BookModal = () => {
                               placeholder="to"
                               className="form-control"
                            />
+                           <ErrorMessage name="to">
+                              {(msg) => <p className="text-danger">{msg}</p>}
+                           </ErrorMessage>
                         </Col>
                      </FormGroup>
                      <FormGroup row>
