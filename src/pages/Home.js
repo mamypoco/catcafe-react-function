@@ -1,5 +1,6 @@
 import HomeImg from "../assets/images/cat_and_coffee.jpg";
 import { Container, Row, Col } from "reactstrap";
+import BookModal from "../components/BookModal";
 
 const Home = () => {
    return (
@@ -49,6 +50,7 @@ const Home = () => {
                </p>
             </Col>
          </Row>
+         <BookModal />
       </Container>
    );
 };
