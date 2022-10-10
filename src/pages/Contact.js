@@ -12,7 +12,8 @@ const Contact = () => {
          <Row className="row-content">
             <Col className="text-center">
                <p>
-                  1234 NE 123rd St, Kirkland WA 98034 <br />
+                  12345 NE 123rd St, <br />
+                  Kirkland WA 98034 <br />
                   206-465-1234 <br />
                   purr@catcocoa.com
                </p>
@@ -24,10 +25,10 @@ const Contact = () => {
             </Col>
          </Row>
          <Row className="row-content">
-            <Col className="mx-auto" md="12">
-               <h5>
+            <Col className="mx-auto">
+               <h5 md={{ size: 12, offset: 2 }}>
                   For any questions or feedback, please contact through the form
-                  and we’ll reply as soon as we can.
+                  and we'll reply as soon as we can.
                </h5>
             </Col>
          </Row>

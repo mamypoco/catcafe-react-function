@@ -43,3 +43,19 @@ Nav {
 p {
    font-size: 18px;
 }
+.footer-menu,
+.footer-text {
+   font-size: 17px;
+   color: #8d8daa;
+   text-decoration: none;
+}
+
+.footer-menu:hover {
+   color: white;
+   cursor: pointer;
+}
+
+.social-media-icons-white a {
+   color: #8d8daa;
+   font-size: 2rem;
+}

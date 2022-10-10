@@ -10,6 +10,7 @@ const Home = () => {
                <img
                   src={HomeImg}
                   alt="A cat with coffee laying on the yellow blanket"
+                  className="img-fluid"
                />
             </Col>
          </Row>
@@ -41,7 +42,7 @@ const Home = () => {
 
          <Row className="row-content text-center">
             <Col>
-               <h3> Cafe Hours:</h3>
+               <h3>Cafe Hours:</h3>
                <p>
                   Monday-Friday: 9am -6pm (The last entry 5pm) <br />
                   Saturday and Sunday: 10am - 4pm (The last entry 3pm)
