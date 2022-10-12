@@ -113,7 +113,7 @@ const Slider = () => {
             onExiting={() => setAnimating(true)}
             onExited={() => setAnimating(false)}
          >
-            <img src={item.src} alt={item.altText} className="slider-image" />
+            <img src={item.src} alt={item.altText} className="w-100" />
             <CarouselCaption
                className="carousel-caption"
                captionHeader={item.altText}
