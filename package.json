@@ -1,7 +1,7 @@
 {
    "name": "catcafe-react-function",
-   "homepage": "http://{github-username}.github.io/{repo-name}",
    "version": "0.1.0",
+   "homepage": "https://mamypoco.github.io/catcafe-react-function/",
    "private": true,
    "dependencies": {
       "@fortawesome/fontawesome-svg-core": "^6.2.0",
