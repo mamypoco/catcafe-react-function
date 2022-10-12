@@ -1,6 +1,9 @@
-import HomeImg from "../assets/images/cat_and_coffee.jpg";
+// import HomeImg from "../assets/images/cat_and_coffee.jpg";
 import { Container, Row, Col } from "reactstrap";
 import BookModal from "../components/BookModal";
+// import SliderUncontrolled from "../components/SliderUncontrolled";
+// import SliderClass from "../components/SliderClass";
+import Slider from "../components/Slider";
 
 const Home = () => {
    return (
@@ -8,11 +11,13 @@ const Home = () => {
          <Row className="row-content">
             <Col className="text-center">
                <h1 className="header">Seattle Eastsides' first cat cafe</h1>
-               <img
+               {/* <img
                   src={HomeImg}
                   alt="A cat with coffee laying on the yellow blanket"
                   className="img-fluid"
-               />
+               /> */}
+               <Slider />
+               <BookModal />
             </Col>
          </Row>
          <Row className="row-content">
@@ -50,7 +55,6 @@ const Home = () => {
                </p>
             </Col>
          </Row>
-         <BookModal />
       </Container>
    );
 };

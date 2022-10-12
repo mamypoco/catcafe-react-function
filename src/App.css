@@ -30,9 +30,11 @@ Nav {
    font-size: 22px;
 }
 
+.slider-image {
+   width: 90%;
+}
 .carousel-item {
-   height: 100;
-   width: 100;
+   text-align: center;
 }
 
 .carousel-caption {
