@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/catcafe-react-function/static/css/main.663b7876.css",
-    "main.js": "/catcafe-react-function/static/js/main.45eab03a.js",
+    "main.js": "/catcafe-react-function/static/js/main.4acc4c2a.js",
     "static/js/787.edd69491.chunk.js": "/catcafe-react-function/static/js/787.edd69491.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/catcafe-react-function/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/catcafe-react-function/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -25,11 +25,11 @@
     "static/media/cocoa_logo8.jpg": "/catcafe-react-function/static/media/cocoa_logo8.eb3614896814dddf50fc.jpg",
     "index.html": "/catcafe-react-function/index.html",
     "main.663b7876.css.map": "/catcafe-react-function/static/css/main.663b7876.css.map",
-    "main.45eab03a.js.map": "/catcafe-react-function/static/js/main.45eab03a.js.map",
+    "main.4acc4c2a.js.map": "/catcafe-react-function/static/js/main.4acc4c2a.js.map",
     "787.edd69491.chunk.js.map": "/catcafe-react-function/static/js/787.edd69491.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.663b7876.css",
-    "static/js/main.45eab03a.js"
+    "static/js/main.4acc4c2a.js"
   ]
 }
