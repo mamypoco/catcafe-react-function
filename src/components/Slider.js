@@ -80,12 +80,12 @@ const Slider = () => {
    const [activeIndex, setActiveIndex] = useState(0);
    const [animating, setAnimating] = useState(false);
 
-   const onExiting = () => {
-      animating = true;
-   };
-   const onExited = () => {
-      animating = false;
-   };
+   // const onExiting = () => {
+   //    animating = true;
+   // };
+   // const onExited = () => {
+   //    animating = false;
+   // };
    const next = () => {
       if (animating) return;
       //if animating exists, do nothing; otherwise do below:
