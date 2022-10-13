@@ -1,7 +1,7 @@
 import MenuImg from "../assets/images/cafe_menu.jpg";
 import { Table, Container, Row, Col } from "reactstrap";
 
-const cafemenu = () => {
+const Cafemenu = () => {
    return (
       <Container>
          <Row className="row-content">
@@ -85,4 +85,4 @@ const cafemenu = () => {
    );
 };
 
-export default cafemenu;
+export default Cafemenu;
