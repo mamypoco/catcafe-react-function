@@ -57,6 +57,6 @@ const items = [
    },
 ];
 
-const Slider = () => <UncontrolledCarousel items={items} />;
+const SliderUncontrolled = () => <UncontrolledCarousel items={items} />;
 
-export default Slider;
+export default SliderUncontrolled;
